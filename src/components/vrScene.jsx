@@ -2,7 +2,7 @@ import 'aframe'
 
 export default function VRScene() {
   return (
-    <a-scene>
+    <a-scene vr-mode-ui="enabled: true">
       <a-entity movement-controls="fly: true; speed: 0.5">
         <a-camera></a-camera>
       </a-entity>
